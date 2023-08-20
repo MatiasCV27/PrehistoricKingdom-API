@@ -21,7 +21,6 @@ namespace PrehistoricKingdom_API
                 defaults: new { id = RouteParameter.Optional }
             );
 
-            var cors = new EnableCorsAttribute("http://localhost:3000", "*", "*");
             config.EnableCors();
         }
     }

@@ -41,6 +41,7 @@ namespace PrehistoricKingdom_API.Controllers
         }
 
         // DELETE api/<controller>/5
+        [HttpDelete]
         [EnableCors(origins: "http://localhost:3000", headers: "Content-Type", methods: "DELETE")]
         public bool Delete(int id)
         {
